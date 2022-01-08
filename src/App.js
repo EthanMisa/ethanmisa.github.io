@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar.js";
 function App() {
 	return (
 		// add helmet for title
-		<body>
+		<div>
 			<div className="content">
 				<About />
 			</div>
@@ -22,7 +22,7 @@ function App() {
 				https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
 				jsx-a11y/anchor-is-valid
 			</p>
-		</body>
+		</div>
 	);
 }
 
