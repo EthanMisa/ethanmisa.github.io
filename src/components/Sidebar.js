@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/App.css";
+import "../styles/Sidebar.css";
 
 function Sidebar() {
 	return (
 		<nav className="sidebar">
 			<ul className="sidebar-nav">
 				<li className="logo">
-					<a href="#" className="logo-link">
+					<a href="#about" className="logo-link">
 						<span className="logo-big">Ethan Misa</span>
 						<span className="logo-small">EM</span>
 					</a>

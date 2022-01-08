@@ -1,5 +1,7 @@
 import About from "./components/About.jsx";
 import Sidebar from "./components/Sidebar.js";
+import "./styles/App.css";
+
 function App() {
 	return (
 		// add helmet for title
