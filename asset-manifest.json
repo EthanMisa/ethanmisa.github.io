@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.a81320bd.css",
-    "main.js": "/personal-website/static/js/main.82c2bf59.js",
+    "main.css": "/personal-website/static/css/main.41976c03.css",
+    "main.js": "/personal-website/static/js/main.ce5344bb.js",
     "static/media/headshotIcon.png": "/personal-website/static/media/headshotIcon.6a44d2627ca618c6df2c.png",
+    "static/media/EthanMisaResume.pdf": "/personal-website/static/media/EthanMisaResume.f4683ff65e49a897cb3d.pdf",
     "static/media/yfinance.png": "/personal-website/static/media/yfinance.738961c0dc325eb87bcf.png",
     "index.html": "/personal-website/index.html",
-    "main.a81320bd.css.map": "/personal-website/static/css/main.a81320bd.css.map",
-    "main.82c2bf59.js.map": "/personal-website/static/js/main.82c2bf59.js.map"
+    "main.41976c03.css.map": "/personal-website/static/css/main.41976c03.css.map",
+    "main.ce5344bb.js.map": "/personal-website/static/js/main.ce5344bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a81320bd.css",
-    "static/js/main.82c2bf59.js"
+    "static/css/main.41976c03.css",
+    "static/js/main.ce5344bb.js"
   ]
 }
