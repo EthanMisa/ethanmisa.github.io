@@ -93,6 +93,20 @@
 	text-decoration: none;
 	color: var(--text-sidebar);
 }
+.resume-link {
+	text-decoration: none;
+	color: var(--text-primary);
+	font-weight: 500;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+}
+.resume-cont {
+	margin-top: 1rem;
+	border-radius: 1rem;
+	border: 3px solid var(--text-primary);
+	background-color: var(--bg-secondary);
+	width: fit-content;
+}
 .cfm-link:hover {
 	text-decoration: underline;
 }

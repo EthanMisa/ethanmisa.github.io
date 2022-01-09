@@ -1,0 +1,27 @@
+.footer {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	height: 3rem;
+	background-color: darkgreen;
+}
+.copyright {
+	background-color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.modified {
+	background-color: brown;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.author {
+	background-color: crimson;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

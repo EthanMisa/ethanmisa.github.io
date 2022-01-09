@@ -75,7 +75,7 @@ function Sidebar() {
 				</li>
 
 				<li className="nav-item" id="themeButton">
-					<a href="#" className="nav-link">
+					<a href="#contact" className="nav-link">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 							<path
 								d="M18,3H6C5.448,3,5,3.448,5,4v16c0,0.552,0.448,1,1,1h12c0.552,0,1-0.448,1-1V4C19,3.448,18.552,3,18,3z M12,7c1.105,0,2,0.895,2,2c0,1.105-0.895,2-2,2s-2-0.895-2-2C10,7.895,10.895,7,12,7z M8,17c0-1.657,1.343-3,3-3h2c1.657,0,3,1.343,3,3H8z"

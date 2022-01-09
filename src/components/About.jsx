@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import Headshot from "./../img/headshotIcon.png";
-
+import Resume from "../pdfs/EthanMisaResume.pdf";
 function About() {
 	return (
 		<a id="about">
@@ -32,6 +32,11 @@ function About() {
 							I have interests in both software development and investing, and I
 							am in pursuit of a career that combines both areas.
 						</p>
+						<div className="resume-cont">
+							<a href={Resume} className="resume-link">
+								My Resume
+							</a>
+						</div>
 					</div>
 				</div>
 				<div className="a-right">
