@@ -1,10 +1,13 @@
 :root {
 	font-size: 16px;
-	--text-primary: #202a38;
+	--text-primary: #212833;
 	--text-secondary: #475569;
+	--text-highlight: #1e293b;
+	--text-sidebar: #0d1724;
 	--bg-primary: #839cbe;
-	--bg-secondary: #475569;
+	--bg-secondary: #56667c;
 	--transition-speed: 600ms;
+	background: var(--bg-primary);
 }
 
 body {
@@ -24,6 +27,7 @@ body::-webkit-scrollbar-thumb {
 
 .content {
 	margin-left: 5rem;
+	background: var(--bg-primary);
 }
 
 @media only screen and (max-width: 600px) {

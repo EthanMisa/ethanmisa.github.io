@@ -8,7 +8,7 @@ function About() {
 			<div className="a">
 				<div className="a-left">
 					<div className="a-left-wrap">
-						<h2 className="a-intro primary">Hello! My name is</h2>
+						<h2 className="a-intro">Hello! My name is</h2>
 						<h1 className="a-name">Ethan Misa</h1>
 						<div className="a-title">
 							<div className="a-title-wrap">
@@ -37,6 +37,9 @@ function About() {
 				<div className="a-right">
 					<div className="pic-border">
 						<img src={Headshot} alt="Headshot" className="headshot" />
+						<p className="quote">
+							<em>"Fortune favours the brave."</em>
+						</p>
 					</div>
 				</div>
 			</div>
