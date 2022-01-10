@@ -1,16 +1,18 @@
 .s {
 	padding: 1rem;
+	background-color: var(--bg-secondary);
 }
 .grid {
 	/* background: red; */
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	height: 70vh;
 	min-height: 60vh;
 	margin: 3rem;
 	display: grid;
 	grid-template-rows: 1fr 2fr 3fr;
-	background: var(--bg-primary);
+	/* background: var(--bg-primary); */
 	row-gap: 1rem;
+	overflow: hidden;
 }
 .title {
 	text-align: center;
@@ -22,7 +24,7 @@
 
 .languages {
 	text-align: center;
-	background: chocolate;
+
 	display: grid;
 	grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
 	gap: 1rem 1rem;
@@ -36,7 +38,7 @@
 }
 .frameworks {
 	text-align: center;
-	background: cornflowerblue;
+
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1.3fr;
 	grid-template-rows: 1fr 1fr;

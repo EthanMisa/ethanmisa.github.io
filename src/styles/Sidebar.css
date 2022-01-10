@@ -1,6 +1,6 @@
 .sidebar {
 	position: fixed;
-	background-color: var(--bg-secondary);
+	background-color: var(--bg-sidebar);
 	transition: width 200ms ease;
 }
 

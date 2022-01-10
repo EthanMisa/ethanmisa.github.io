@@ -19,7 +19,7 @@ function Skills() {
 					</div>
 					<div className="frameworks">
 						<div className="react">
-							<svg
+							{/*<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="64"
 								height="64"
@@ -37,11 +37,11 @@ function Skills() {
 										<path d="M180.82 289.482C147.075 231.2 124.1 172.195 114.51 123.227c-11.544-59-3.382-104.11 19.864-117.566 24.224-14.024 70.055 2.244 118.14 44.94 36.356 32.28 73.688 80.837 105.723 136.173 32.844 56.733 57.46 114.21 67.036 162.582 12.117 61.213 2.31 107.984-21.453 121.74-23.057 13.348-65.25-.784-110.24-39.5-38.013-32.71-78.682-83.253-112.76-142.115z" />
 									</g>
 								</g>
-							</svg>
+							</svg> */}
 							React
 						</div>
 						<div className="yf">
-							<img className="yf-img" src={yf} alt="" />
+							{/* <img className="yf-img" src={yf} alt="" /> */}
 							yFinance
 						</div>
 						<div className="pand">Pandas</div>

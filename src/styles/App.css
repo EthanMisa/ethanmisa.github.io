@@ -1,11 +1,12 @@
 :root {
 	font-size: 16px;
+	--bg-sidebar: #56667c;
 	--text-primary: #212833;
 	--text-secondary: #475569;
 	--text-highlight: #1e293b;
 	--text-sidebar: #0d1724;
 	--bg-primary: #839cbe;
-	--bg-secondary: #56667c;
+	--bg-secondary: #94a3b8;
 	--transition-speed: 600ms;
 	background: var(--bg-primary);
 }
