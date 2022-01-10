@@ -8,7 +8,7 @@ function Skills() {
 			<div className="s">
 				<div className="grid">
 					<div className="title">
-						<h1 className="title-text">My Skills</h1>
+						<h1 className="title-text">My Skills!</h1>
 					</div>
 					<div className="languages">
 						<div className="lang-text">Languages</div>
