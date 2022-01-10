@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import Headshot from "./../img/headshotIcon.png";
-import Resume from "../pdfs/EthanMisaResume.pdf";
+
 function About() {
 	return (
 		<a id="about">
@@ -33,7 +33,11 @@ function About() {
 							am in pursuit of a career that combines both areas.
 						</p>
 						<div className="resume-cont">
-							<a href={Resume} className="resume-link">
+							<a
+								href={process.env.PUBLIC_URL + "/EthanMisaResume.pdf"}
+								className="resume-link"
+								target="_blank"
+							>
 								My Resume
 							</a>
 						</div>

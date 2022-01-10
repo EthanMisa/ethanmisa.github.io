@@ -61,6 +61,8 @@
 	flex: 1;
 	position: relative;
 	vertical-align: middle;
+	padding: 2rem;
+	height: 100%;
 }
 
 .pic-border {
@@ -109,4 +111,18 @@
 }
 .cfm-link:hover {
 	text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+	.a {
+		flex-direction: column;
+	}
+
+	.a-left-wrapp {
+		padding: 10px;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		height: 100%;
+	}
 }
