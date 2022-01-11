@@ -9,15 +9,11 @@ function Footer() {
 	return (
 		<a id="contact">
 			<div className="footer">
-				<div className="copyright">
-					Copyright &copy; 2022 Ethan Misa <br /> All Rights Reserved
+				<div className="copyright">Copyright &copy; 2022 Ethan Misa </div>
+				<div className="modified">
+					<em>Last modified on {document.lastModified.split(" ")[0]}</em>
 				</div>
-				<div className="modified">{getStringDate()}</div>
-				<div className="author">
-					Developed by
-					<br />
-					Ethan Misa
-				</div>
+				<div className="author">Developed by Ethan Misa</div>
 			</div>
 		</a>
 	);
