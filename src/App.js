@@ -8,11 +8,11 @@ import Aidan from "./components/Aidan.js";
 
 function App() {
 	return (
-		// add helmet for title
+		// add helmet for title {process.env.PUBLIC_URL +
 		<BrowserRouter>
 			<Routes>
 				<Route
-					path={process.env.PUBLIC_URL + "/"}
+					path="/"
 					element={
 						<div className="app">
 							<div className="content">
@@ -24,7 +24,7 @@ function App() {
 						</div>
 					}
 				/>
-				<Route path={process.env.PUBLIC_URL + "/aidan"} element={<Aidan />} />
+				<Route path="/aidan" element={<Aidan />} />
 			</Routes>
 		</BrowserRouter>
 	);
