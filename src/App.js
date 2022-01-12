@@ -12,7 +12,7 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route
-					path="/"
+					path={process.env.PUBLIC_URL + "/"}
 					element={
 						<div className="app">
 							<div className="content">
@@ -24,7 +24,7 @@ function App() {
 						</div>
 					}
 				/>
-				<Route path="/aidan" element={<Aidan />} />
+				<Route path={process.env.PUBLIC_URL + "/aidan"} element={<Aidan />} />
 			</Routes>
 		</BrowserRouter>
 	);
