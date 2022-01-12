@@ -1,5 +1,6 @@
 :root {
 	font-size: 16px;
+	/* 
 	--bg-sidebar: #56667c;
 	--text-primary: #212833;
 	--text-secondary: #475569;
@@ -7,7 +8,14 @@
 	--text-sidebar: #0d1724;
 	--bg-primary: #839cbe;
 	--bg-secondary: #94a3b8;
+	 */
 	--transition-speed: 600ms;
+	--bg-primary: #343434;
+	--bg-secondary: #646669;
+	--bg-sidebar: #2c1a1a;
+	--text-primary: #d1d0c5;
+	--text-highlight: #db6c11;
+
 	background: var(--bg-primary);
 }
 
@@ -28,7 +36,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .content {
-	margin-left: 5rem;
+	margin-left: 8rem;
 	background: var(--bg-primary);
 }
 
