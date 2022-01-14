@@ -1,56 +1,41 @@
 import React from "react";
 import "../styles/Skills.css";
 
-import yf from "../img/yfinance.png";
+import ja from "../img/ja.png";
+import js from "../img/js.png";
+import py from "../img/py.png";
+import c from "../img/c.png";
 function Skills() {
 	return (
 		<a id="skills">
 			<div className="s">
 				<div className="grid">
 					<div className="title">
-						<h1 className="title-text">My Skills</h1>
+						<h1 className="title-text">Technical Skills</h1>
 					</div>
 					<div className="languages">
-						<div className="lang-text">Languages</div>
-						<div className="python">Python</div>
-						<div className="js">JavaScript</div>
-						<div className="java">Java</div>
-						<div className="c">C</div>{" "}
+						<div className="logo-div js">
+							<img src={js} alt="JavaScript Logo" />
+						</div>
+						<div className="logo-div">
+							<img src={ja} alt="Java Logo" />
+						</div>
+						<div className="logo-div">
+							<img src={py} alt="Python Logo" />
+						</div>
+						<div className="logo-div">
+							<img src={c} alt="C Logo" />
+						</div>
 					</div>
 					<div className="frameworks">
-						<div className="react">
-							{/*<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="64"
-								height="64"
-								viewBox="0 0 32 32"
-							>
-								<g
-									transform="matrix(.05696 0 0 .05696 .647744 2.43826)"
-									fill="none"
-									fill-rule="evenodd"
-								>
-									<circle r="50.167" cy="237.628" cx="269.529" fill="#00d8ff" />
-									<g stroke="#00d8ff" stroke-width="24">
-										<path d="M269.53 135.628c67.356 0 129.928 9.665 177.107 25.907 56.844 19.57 91.794 49.233 91.794 76.093 0 27.99-37.04 59.503-98.083 79.728-46.15 15.29-106.88 23.272-170.818 23.272-65.554 0-127.63-7.492-174.3-23.44-59.046-20.182-94.61-52.103-94.61-79.56 0-26.642 33.37-56.076 89.415-75.616 47.355-16.51 111.472-26.384 179.486-26.384z" />
-										<path d="M180.736 186.922c33.65-58.348 73.28-107.724 110.92-140.48C337.006 6.976 380.163-8.48 403.43 4.937c24.248 13.983 33.042 61.814 20.067 124.796-9.8 47.618-33.234 104.212-65.176 159.6-32.75 56.788-70.25 106.82-107.377 139.272-46.98 41.068-92.4 55.93-116.185 42.213-23.08-13.3-31.906-56.92-20.834-115.233 9.355-49.27 32.832-109.745 66.8-168.664z" />
-										<path d="M180.82 289.482C147.075 231.2 124.1 172.195 114.51 123.227c-11.544-59-3.382-104.11 19.864-117.566 24.224-14.024 70.055 2.244 118.14 44.94 36.356 32.28 73.688 80.837 105.723 136.173 32.844 56.733 57.46 114.21 67.036 162.582 12.117 61.213 2.31 107.984-21.453 121.74-23.057 13.348-65.25-.784-110.24-39.5-38.013-32.71-78.682-83.253-112.76-142.115z" />
-									</g>
-								</g>
-							</svg> */}
-							React
-						</div>
-						<div className="yf">
-							{/* <img className="yf-img" src={yf} alt="" /> */}
-							yFinance
-						</div>
-						<div className="pand">Pandas</div>
-						<div className="num">Numpy</div>
-						<div className="bs">BootStrap</div>
-						<div className="plt">Matplotlib</div>
-						<div className="git">Git</div>
-						<div className="ex">Excel</div>
-						<div className="frame-text">Frameworks</div>
+						<div className="framework-text">React</div>
+						<div className="framework-text">HTML</div>
+						<div className="framework-text">CSS</div>
+						<div className="framework-text">BootStrap</div>
+						<div className="framework-text">YFinance</div>
+						<div className="framework-text">Pandas</div>
+						<div className="framework-text">NumPy</div>
+						<div className="framework-text">Git</div>
 					</div>
 				</div>
 			</div>

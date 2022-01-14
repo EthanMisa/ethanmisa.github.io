@@ -38,6 +38,8 @@ body::-webkit-scrollbar-thumb {
 .content {
 	margin-left: 8rem;
 	background: var(--bg-primary);
+	/* display: flex;
+	flex-direction: column; */
 }
 
 @media only screen and (max-width: 600px) {

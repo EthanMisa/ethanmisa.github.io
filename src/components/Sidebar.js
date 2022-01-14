@@ -62,7 +62,7 @@ function Sidebar() {
 				</li>
 
 				<li className="nav-item">
-					<a href="#" className="nav-link">
+					<a href="#projects" className="nav-link">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 							<path
 								fill="currentColor"

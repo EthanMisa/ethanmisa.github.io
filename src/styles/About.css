@@ -49,6 +49,7 @@
 		transform: translateY(-300%);
 	}
 }
+
 .a-title-item {
 	color: var(--text-primary);
 	height: 4rem;
@@ -57,20 +58,21 @@
 	display: flex;
 	align-items: center;
 }
+
 .a-right {
 	flex: 1;
 	position: relative;
 	vertical-align: middle;
-	padding: 2rem;
+	padding: 3rem;
 	height: 100%;
 }
 
 .pic-border {
 	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+
 	margin-right: 1rem;
 }
+
 .headshot {
 	width: 100%;
 	align-items: center;
