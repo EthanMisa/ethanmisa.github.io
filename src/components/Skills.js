@@ -11,7 +11,7 @@ function Skills() {
 			<div className="s">
 				<div className="grid">
 					<div className="title">
-						<h1 className="title-text">Technical Skills</h1>
+						<h1 className="title-text">Skills</h1>
 					</div>
 					<div className="languages">
 						<div className="logo-div js">

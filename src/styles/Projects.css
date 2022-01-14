@@ -92,3 +92,8 @@
 .karen-link {
 	color: rgb(127, 175, 238);
 }
+
+.click-github {
+	color: var(--text-highlight);
+	font-size: 1rem;
+}

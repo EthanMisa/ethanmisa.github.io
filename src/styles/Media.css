@@ -1,11 +1,11 @@
 .m {
-	height: 95vh;
-	width: 100%;
+	/* height: 95vh; */
+	/* width: 100%; */
 	background: var(--bg-secondary);
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	padding: 3rem;
+	/* padding: 3rem; */
 }
 
 .carousel {
@@ -20,7 +20,13 @@
 }
 
 .carousel .slide img {
-	object-fit: contain;
-	/* max-height: 100%;
-	width: auto; */
+	/* object-fit: contain; */
+	max-height: 100%;
+	width: auto;
+}
+
+.image {
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
 }

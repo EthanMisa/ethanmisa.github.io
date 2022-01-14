@@ -80,7 +80,7 @@ function Sidebar() {
 					</a>
 				</li>
 
-				<li className="nav-item">
+				{/* <li className="nav-item">
 					<a href="#" className="nav-link">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 							<path
@@ -102,7 +102,7 @@ function Sidebar() {
 						</svg>
 						<span className="link-text">Media</span>
 					</a>
-				</li>
+				</li> */}
 
 				<li className="nav-item" id="themeButton">
 					<a href="#contact" className="nav-link">

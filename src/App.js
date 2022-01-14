@@ -1,4 +1,5 @@
 import About from "./components/About.jsx";
+import Contact from "./components/Contact.js";
 import Footer from "./components/Footer.js";
 import Media from "./components/Media.js";
 import Projects from "./components/Projects.js";
@@ -14,7 +15,8 @@ function App() {
 				<About />
 				<Skills />
 				<Projects />
-				<Media />
+				{/* <Media /> */}
+				{/* <Contact /> */}
 				<Footer />
 			</div>
 			<Sidebar />

@@ -9,24 +9,33 @@ function Projects() {
 			<div className="p">
 				<div className="grid">
 					<div className="title">
-						<h1 className="title-text">My Projects</h1>
+						<h1 className="title-text">Projects</h1>
 					</div>
 					<div className="projects">
-						<div className="project">
-							<img src={algo} alt="Picture of Computer" />
-							<div className="project-text">
-								<h1 className="project-title">Financial Portfolio Generator</h1>
-								<br />
-								<p className="project-desc">
-									Prize-winning algorithm that creates investment portfolios
-									with optimized risk to return ratios for any list of tickers.
-								</p>
-								<br />
-								<p className="project-lang">
-									Technologies: Python, Pandas, NumPy, YFinance.
-								</p>
+						<a
+							href="https://github.com/EthanMisa/Financial-Portfolio-Generator"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<div className="project">
+								<img src={algo} alt="Picture of Computer" />
+								<div className="project-text">
+									<h1 className="project-title">
+										Financial Portfolio Generator
+									</h1>
+									<br />
+									<p className="project-desc">
+										Prize-winning algorithm that creates investment portfolios
+										with optimized risk to return ratios for any list of
+										tickers.
+									</p>
+									<br />
+									<p className="project-lang">
+										Technologies: Python, Pandas, NumPy, YFinance.
+									</p>
+								</div>
 							</div>
-						</div>
+						</a>
 						<div className="project">
 							<img src={prmi} alt="Picture of Password" />
 							<div className="project-text">
@@ -68,6 +77,7 @@ function Projects() {
 							</div>
 						</div>
 					</div>
+					<p className="click-github">Click on them to visit the GitHub!</p>
 				</div>
 			</div>
 		</a>
