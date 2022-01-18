@@ -16,7 +16,7 @@ function App() {
 				<Skills />
 				<Projects />
 				{/* <Media /> */}
-				{/* <Contact /> */}
+				<Contact />
 				<Footer />
 			</div>
 			<Sidebar />
