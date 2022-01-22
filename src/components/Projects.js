@@ -58,7 +58,7 @@ function Projects() {
 							</div>
 						</a>
 						<a
-							href="https://github.com/time-management-school-app/SchoolDule"
+							href="https://github.com/SchoolDuleApp/SchoolDule"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
