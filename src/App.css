@@ -1,6 +1,7 @@
 :root {
   --background-color: #323437;
-  --text-color: #eed6c5;
+  /* --text-color: #eed6c5; */
+  --text-color: #d1d0c5;
 }
 
 .light-mode {

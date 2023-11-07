@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import { CenteredContainer } from "./components/centeredContainer";
+import { CenteredContainer, Header } from "./components";
 function App() {
   return (
     <CenteredContainer>
-      <div>hi</div>
+      <Header/>
     </CenteredContainer>
   );
 }
