@@ -1,1 +1,1 @@
-export { default as CenteredContainer } from "./centeredContainer";
+export { default as CenteredContainer } from './centeredContainer';

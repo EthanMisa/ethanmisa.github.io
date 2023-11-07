@@ -1,24 +1,27 @@
-import React from 'react'
+import React from 'react';
 import me from './me.jpeg';
+import './styles.css';
+
 function Header() {
-    return (
-        <header className="header">
-        <div className="profile">
-          <img src={'./me.jpeg'} alt="Your Name" />
-          <h1>Your Name</h1>
-          <p>A brief introduction about yourself</p>
+  return (
+    <header className="header">
+      <div className="introduction">
+        <div className="picture-wrap">
+          <img src={me} className="picture" alt="Your Name" />
         </div>
-        <div className="social-links">
-          <a href="https://www.linkedin.com/yourprofile" target="_blank" rel="noopener noreferrer">
-            LinkedIn
-          </a>
-          <a href="https://www.github.com/yourusername" target="_blank" rel="noopener noreferrer">
-            GitHub
-          </a>
-          {/* Add links to other social media profiles as needed */}
+        <h1>Ethan Misa</h1>
+      </div>
+
+      <div className="info-wrap">
+        <div>
+          Hello world! My name is Ethan and I am a third year computer science
+          student at the University of Waterloo. I'm hoping to apply my passion
+          for problem solving and technology in the world of software
+          development. Please see below for my previous internship experience.
         </div>
-      </header>
-    );
+      </div>
+    </header>
+  );
 }
 
-export default Header
+export default Header;

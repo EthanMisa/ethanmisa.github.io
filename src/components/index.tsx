@@ -1,2 +1,2 @@
-export { Header} from './header'
-export { CenteredContainer} from './centeredContainer'
+export { Header } from './header';
+export { CenteredContainer } from './centeredContainer';
