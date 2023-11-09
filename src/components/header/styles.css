@@ -1,18 +1,28 @@
 :root {
-  --profile-size: 200px;
+  --profile-size: 15em;
 }
 
 .header {
   display: flex;
   justify-content: left;
   align-items: center;
-  padding: 20px;
+  padding: 1em;
   display: flex;
   flex-direction: row;
+  gap: 2em;
+  @media (max-width: 768px) {
+    flex-direction: column; /* Change to column layout on smaller screens */
+  }
 }
 
 .introduction {
   text-align: center;
+
+  /* @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+  } */
 }
 
 .social-links a {
@@ -33,6 +43,15 @@
   position: relative; /* Create a positioning context for the image */
 }
 
+.horizontal-line {
+  width: 50%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .picture {
   height: var(--profile-size);
   width: auto;
@@ -40,4 +59,25 @@
   top: 50%;
   left: 50%;
   transform: translate(-52%, -50%) scale(1.5);
+}
+
+svg {
+  fill: #d1d0c5;
+  height: 24px;
+  width: 24px;
+}
+
+.socials-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hello-world {
+  font-size: 4em;
+
+  @media (max-width: 768px) {
+    font-size: 2.5em;
+  }
 }
